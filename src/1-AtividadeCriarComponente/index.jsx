@@ -5,7 +5,7 @@
 export default function Home() {
     return (
         <div>
-            
+            <h1>Encanto Livraria</h1>
         </div>
     );
 }
