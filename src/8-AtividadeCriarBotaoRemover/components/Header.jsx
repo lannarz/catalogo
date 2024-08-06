@@ -1,5 +1,9 @@
-export default function Header ({ title }) {
+export default function Header ({ title, FuncaoAlerta }) {
     return(
-        <h1> {title} </h1>
+        <header>
+            <h1> {title} </h1>
+            <button onClick={FuncaoAlerta}> Alerta </button>
+        </header>
     )
 };
+

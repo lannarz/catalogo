@@ -42,11 +42,22 @@ export default function Home() {
   setListaPedidos(listaAux);
  }
 
+  const FuncaoAlert = () => {
+    alert("Frete Grátis")
+  }
+
+
+
  return (
 
   <div>
 
-  <Header title ={"Livros disponíveis"}/>
+  <Header 
+  title ={"Livros disponíveis"} 
+  FuncaoAlerta ={FuncaoAlert}
+
+  />
+      Calcular={x=20} {y=5}
 
       <h1>Encanto Livraria</h1>
 
